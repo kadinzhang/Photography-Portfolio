@@ -272,7 +272,7 @@ export default {
 <style lang="scss">
 html,
 body {
-    overflow-y: auto !important;
+    overflow-y: visible !important;
 }
 .buttonholder {
     position: absolute;

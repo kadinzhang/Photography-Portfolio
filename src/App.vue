@@ -57,7 +57,8 @@ html,
 body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+    overflow-x: hidden;
     // background-image: url("https://lh3.googleusercontent.com/-ZmHTsfkMTCM/XE3cO72yUtI/AAAAAAAAHSk/Rs302LhLOUgTS7OzU5g5fTycr0wtcyxvQCL0BGAYYCw/h1367/LSD_7273.jpg");
     width: 100%;
     min-height: 100%;
@@ -66,6 +67,9 @@ body {
     -moz-transition: background-color 0.45s ease-in-out;
     transition: background-color 0.45s ease-in-out;
 }
+#app {
+    margin-left: -10px !important;
+}
 .drop {
     height: 100vh;
 }
@@ -73,6 +77,7 @@ body {
     background-image: url("https://lh3.googleusercontent.com/-vnZjIXRYlhQ/XE3LYfFHt_I/AAAAAAAAHQQ/REVlcmfqnn0V1oj9MomS-DJNTn8_jEijwCL0BGAYYCw/h1152/LSD_8599.jpg");
     background-size: cover;
     background-position: center center;
+    overflow-y: hidden;
 }
 // styles
 .fullWidth {

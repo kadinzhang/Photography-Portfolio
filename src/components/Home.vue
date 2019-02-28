@@ -374,4 +374,46 @@ export default {
     -o-animation: rotating-inverse 16s linear infinite;
     animation: rotating-inverse 16s linear infinite;
 }
+@media only screen and (max-width: 1400px) {
+    .logo-bg {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        box-shadow: 0 0 36px rgba(0, 0, 0, 0.015), 0 0 36px rgba(0, 0, 0, 0.05);
+        &.oval-big {
+            width: 440px;
+            height: 480px;
+            background: rgba(235, 235, 235, 0.1);
+            margin-top: -290px;
+            margin-left: -270px;
+            z-index: 1;
+            opacity: 0;
+            visibility: hidden;
+        }
+        &.oval-small {
+            width: 380px;
+            height: 320px;
+            background: rgba(235, 235, 235, 0.15);
+            margin-top: -210px;
+            margin-left: -240px;
+            z-index: 2;
+            opacity: 0;
+            visibility: hidden;
+        }
+        &.circle {
+            width: 260px;
+            height: 260px;
+            background: #a5d6a7;
+            background: rgba(235, 235, 235, 0.25);
+            transform: translate(-50%, -50%);
+            z-index: 3;
+        }
+    }
+}
 </style>
