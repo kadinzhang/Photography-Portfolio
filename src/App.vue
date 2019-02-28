@@ -67,9 +67,6 @@ body {
     -moz-transition: background-color 0.45s ease-in-out;
     transition: background-color 0.45s ease-in-out;
 }
-#app {
-    margin-left: -10px !important;
-}
 .drop {
     height: 100vh;
 }
@@ -96,6 +93,8 @@ body {
     width: 100%;
     // max-width: 1360px;
     margin: 0 auto;
+    margin-left: -10px;
+
     // main navigation
     nav {
         font-family: "Cardo", serif;
