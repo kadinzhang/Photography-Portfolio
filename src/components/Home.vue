@@ -375,6 +375,13 @@ export default {
     animation: rotating-inverse 16s linear infinite;
 }
 @media only screen and (max-width: 1400px) {
+    .logo {
+        transform: scale(0.8);
+    }
+    .custom-navigation {
+        margin-top: -7%;
+        transform: scale(0.8);
+    }
     .logo-bg {
         position: absolute;
         display: block;

@@ -1,5 +1,5 @@
 <template>
-    <div id="app" :class="$route.name === 'Home' ? 'fullWidth' : ''">
+    <div id="app" :class="($route.name === 'Home' || $route.name === 'Gallery') ? 'fullWidth' : ''">
         <div class="drop" :class="$route.name === 'Home' ? 'background' : ''">
             <!-- navigation START -->
             <navigation/>
@@ -27,6 +27,15 @@ export default {
     components: {
         Navigation,
         AppFooter
+    },
+    methods: {
+        getClass() {
+            if (this.$route.name === "Home" || this.$route.name === "Gallery") {
+                return "fullWidth";
+            } else {
+                return "";
+            }
+        }
     }
 };
 </script>
@@ -66,6 +75,7 @@ body {
     -webkit-transition: background-color 0.45s ease-in-out;
     -moz-transition: background-color 0.45s ease-in-out;
     transition: background-color 0.45s ease-in-out;
+    background: rgb(247, 246, 243);
 }
 .drop {
     height: 100vh;
@@ -82,6 +92,7 @@ body {
     width: 100% !important;
     max-width: none !important;
 }
+
 #app {
     font-family: "Montserrat", sans-serif;
     -webkit-font-smoothing: antialiased;
