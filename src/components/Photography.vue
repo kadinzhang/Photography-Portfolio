@@ -29,7 +29,7 @@
                 <div class="swiper-slide slide">
                     <div
                         class="slide-image"
-                        style="background-image: url(https://lh3.googleusercontent.com/-hYFOY2FZ1JM/XE4C_WH4BqI/AAAAAAAAHWE/NHS9fqEF9Nc6lMMRc2TPaqF1hkBDeu2hgCL0BGAYYCw/h1367/LSD_4973.jpg"
+                        style="background-image: url(https://lh3.googleusercontent.com/-4Vh9KpZwbr0/XE4AEFjiDPI/AAAAAAAAHUM/xMmy1SxVSw4Dg-bgWecKWW9bnm7Q2xrWQCK8BGAs/s0/LSD_8466.jpg"
                     ></div>
                     <span class="slide-title">Animals</span>
                 </div>
