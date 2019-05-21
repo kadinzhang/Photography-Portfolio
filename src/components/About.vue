@@ -37,6 +37,17 @@
                         </a>
                     </li>
                     <li>
+                        <a
+                            href="http://modules.ussquash.com/ssm/pages/player_profile.asp?id=172062"
+                            target="_blank"
+                        >
+                            <div class="logo-bg-holder">
+                                <div class="logo-bg social-oval-big rotating-fast"></div>
+                            </div>
+                            <span>linkedin</span>
+                        </a>
+                    </li>
+                    <li>
                         <a href="https://www.instagram.com/ianzeone/" target="_blank">
                             <div class="logo-bg-holder">
                                 <div class="logo-bg social-circle"></div>
